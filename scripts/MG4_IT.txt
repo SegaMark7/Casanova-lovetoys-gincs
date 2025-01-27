@@ -1,0 +1,94 @@
+#CLEAR FL73
+#CLEAR FL73
+#CLEAR FL82
+:part1
+#CLEARBKG
+#LOADBKG M@part1
+Scegli come massaggiarlo
+!part2;Lento
+!part2;Normale
+!part2;Veloce
+/i
+
+:part2
+#CLEARBKG
+#LOADBKG M@part2
+Scegli come massaggiarlo
+!part4;Lento
+!part4;Normale
+!part3;Veloce
+/i
+
+:part3
+#CLEARBKG
+#LOADBKG M@part3
+Scegli come massaggiarlo
+!part6;Lento
+!part6;Normale
+!part5;Veloce
+/i
+
+:part4
+#CLEARBKG
+#LOADBKG M@part4
+Scegli come massaggiarlo
+!part7;Lento
+!part6;Normale
+!part7;Veloce
+/i
+
+:part5
+#CLEARBKG
+#LOADBKG M@part5
+Scegli come massaggiarlo
+!part7;Lento
+!part7;Normale
+!part6;Veloce
+/i
+
+:part6
+#CLEARBKG
+#LOADBKG M@part6
+Scegli come massaggiarlo
+!part8;Lento
+!NORMAL;Normale
+!FAST;Veloce
+/i
+
+:part7
+#CLEARBKG
+#LOADBKG M@part7
+Scegli come massaggiarlo
+!SLOW;Lento
+!part8;Normale
+!part8;Veloce
+/i
+
+:part8
+#CLEARBKG
+#LOADBKG M@part8
+Scegli come massaggiarlo
+!SLOW;Lento
+!NORMAL;Normale
+!FAST;Veloce
+/i
+
+:SLOW
+#SET FL73
+-Ho finito! Ti e piaciuto?
+-No! Era troppo lento!
+/i
+#RETURN
+:NORMAL
+#SET FL73
+-Ho finito! Ti e piaciuto?
+-No! Era troppo veloce!
+/i
+#RETURN
+:FAST
+#SET FL82
+-Ho finito! Ti e piaciuto?
+-Si. Infatti, so come ringraziarti.
+/i
+#RETURN
+#END

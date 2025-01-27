@@ -1,0 +1,94 @@
+#CLEAR FL73
+#CLEAR FL73
+#CLEAR FL76
+:part1
+#CLEARBKG
+#LOADBKG M@part1
+Выбирай как будешь её массировать
+!part2;Медленно
+!part3;Нормально
+!part3;Быстро
+/i
+
+:part2
+#CLEARBKG
+#LOADBKG M@part2
+Выбирай как будешь её массировать
+!part3;Медленно
+!part3;Нормально
+!part4;Быстро
+/i
+
+:part3
+#CLEARBKG
+#LOADBKG M@part3
+Выбирай как будешь её массировать
+!part6;Медленно
+!part4;Нормально
+!part6;Быстро
+/i
+
+:part4
+#CLEARBKG
+#LOADBKG M@part4
+Выбирай как будешь её массировать
+!part5;Медленно
+!part5;Нормально
+!part5;Быстро
+/i
+
+:part5
+#CLEARBKG
+#LOADBKG M@part5
+Выбирай как будешь её массировать
+!part8;Медленно
+!part8;Нормально
+!part7;Быстро
+/i
+
+:part6
+#CLEARBKG
+#LOADBKG M@part6
+Выбирай как будешь её массировать
+!SLOW;Медленно
+!part7;Нормально
+!part8;Быстро
+/i
+
+:part7
+#CLEARBKG
+#LOADBKG M@part7
+Выбирай как будешь её массировать
+!SLOW;Медленно
+!NORMAL;Нормально
+!part8;Быстро
+/i
+
+:part8
+#CLEARBKG
+#LOADBKG M@part8
+Выбирай как будешь её массировать
+!SLOW;Медленно
+!NORMAL;Нормально
+!FAST;Быстро
+/i
+
+:SLOW
+#SET FL73
+-Я всё! Тебе понравилось?
+-Нет! Ты массировал слишком медленно!
+/i
+#RETURN
+:NORMAL
+#SET FL73
+-Я всё! Тебе понравилось?
+-Нет! Ты массировал слишком быстро.
+/i
+#RETURN
+:FAST
+#SET FL76
+-Я всё! Тебе понравилось?
+-Да! И у меня есть для тебя награда!
+/i
+#RETURN
+#END

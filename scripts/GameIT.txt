@@ -1,0 +1,455 @@
+:000
+#CLEARBKG
+#LOADBKG A@
+(Ciao! Sono Casanova e adoro andare a caccia di ragazze!)
+(Sulla strada, incontro una ragazza angosciata.)
+:001
+-Hej, ciao tesoro. C'e qualcosa che non va?
+-La mia macchina e rotta e devo andare al lavoro. Mi daresti un passaggio?
+:002
+(Prima scelta del giorno!)
+(Fammi pensare..cosa dovrei fare?)
+'Выбор 3
+:003
+!choice4;AIUTO LA RAGAZZA
+!choice5;NON AIUTO LA RAGAZZA
+/i
+:choice4
+Grazie! Mi hai salvato la vita!
+/i
+#GOTO 004
+:choice5
+Quindi mi lasci qua? E perche?
+/i
+#GOTO 005
+:004
+-Ma figurati. Andiamo!
+(Presto, arriviamo dove lavora.)
+/i
+#GOTO 006
+:005
+#CLEARBKG
+#LOADBKG A@
+-Mi dispiace, ma se non vado a casa adesso, perdero il mio programma preferito alla tv.
+(La saluto e me ne vado.)
+/i
+#GOTO 024
+/i
+:006
+#CLEARBKG
+#LOADBKG B@
+-Fico! Guarda tutti questi giocattoli! Sei una scienziata o cosa?
+-Effettivamente lo sono! Vuoi provare la mia ultima invenzione?
+:007
+-Non so..e sicuro?
+-C'e una piccola possiblita che il tuo cervello rimanga danneggiato, ma non preoccuparti.
+:008
+-Sembra pericoloso.
+-Non aver paura. Tu devi decidere! Vuoi essere la mia cavia?
+'Выбор 9
+:009
+!choice10;RIFIUTO
+!choice11;ACCETTO
+/i
+:choice10
+Ci perdi te amico! Vai via dal mio laboratorio e non tornare mai piu!
+/i
+#GOTO 010
+:choice11
+Bene! Iniziamo!
+/i
+#GOTO 011
+:010
+-Dai, non arrabbiarti!
+-Non sono arrabbiata..sono furiosa! Vattene prima che perdi la pazienza!
+/i
+#GOTO 024
+:011
+#CLEARBKG
+#LOADBKG B@
+-Cosa vuoi che faccia?
+-Devi metterti questi occhiali.
+/i
+:012
+#CLEARBKG
+#LOADBKG C@
+-Ok...Fico, posso vedere tra i tuoi vestiti!
+-Ah ah! Questo significa che gli occhiali funzionano!
+:013
+-Congratulazioni! Dovremmo festeggiare.
+-Cos'hai in mente, bello?
+'Выбор 14
+:014
+!choice15;MI COMPORTO DA SPORCACCIONE
+!choice16;MI COMPORTO BENE
+/i
+:choice15
+(Sorrido alla ragazza.)
+/i
+#GOTO 015
+:choice16
+(Sorrido alla ragazza.)
+/i
+#GOTO 016
+:015
+-Vieni piu vicino. Ho qualcosa di speciale per te.
+-OH...Mi piacciono le sorprese!
+/i
+#GOTO 018
+:016
+#CLEARBKG
+#LOADBKG C@
+-Prendiamoci un caffe.
+-Mi piacerebbe, ma ho da fare.
+:017
+-Allora chiamami quando sei libero. Ecco il mio numero di telefono.
+-Ok, ci vediamo presto!
+/i
+#GOTO 025
+/i
+:018
+#CLEARBKG
+#LOADBKG D@
+(La bacio.)
+-Mmm...Piacevole.
+:019
+(All'improvviso, un ragazzone entra nella stanza.)
+-Oh-oh! Siamo nei guai!
+:020
+-Perche? Chi e questo?
+-E' il mio ragazzo.
+:021
+-Hai un ragazzo? Oh cavolo!
+(Devo inventarmi qualcosa o sono fregato!)
+'Выбор 22
+:022
+!choice23_0;PROVO A SPIEGARMI
+!choice23_1;PROVO A SCAPPARE
+/i
+:choice23_0
+(Il fidanzato della ragazza e arrabbiato. Non c'e motivo a ragionare con lui.)
+/i
+#GOTO 023
+:choice23_1
+(Il ragazzo e veloce. Mi sbatte contro il muro.)
+/i
+#GOTO 023
+:023
+(Mi dice che mettera la mia testa sul corpo di uno scimpanze.)
+(Non sono sicuro se sia serio..Beh, ho imparato una importante lezione oggi.)
+/i
+#GOTO 088
+/i
+:024
+#CLEARBKG
+#LOADBKG E@
+(Torno a casa e mi chiedo che cosa sarebbe successo se avessi aiutato la ragazza.)
+DIN-DON!
+/i
+#GOTO 026
+:025
+#CLEARBKG
+#LOADBKG E@
+(Torno a casa e mi chiedo se la tipa mi chiamera questa sera.)
+DIN-DON!
+:026
+-Il campanello? Chi sara?
+(Apro la porta.)
+/i
+#GOTO 030
+:027
+#CLEARBKG
+#LOADBKG E@
+(Vediamo..Il radar mostra due ragazze qua vicino.)
+(Una e nel parco e l'altra in una vicina officina.)
+'Выбор 28
+:028
+!choice36;VADO AL PARCO
+!choice54;VADO ALL'OFFICINA
+/i
+:choice36
+(Sono molto eccitato quando lascio il mio appartamento.)
+/i
+#GOTO 036
+:choice54
+(Sono molto eccitato quando lascio il mio appartamento.)
+/i
+#GOTO 054
+:029
+(E adesso sono di nuovo a casa...da solo.)
+(Forse se avessi fatto scelte differenti, avrei un po’ di compagnia adesso.)
+/i
+#GOTO 089
+/i
+:030
+#CLEARBKG
+#LOADBKG F@
+-Ciao! Posso aiutarti?
+-Piacere di conoscerti, Casanova? Ho sentito molto parlare di te!
+:031
+-Fico, suppongo...Chi sei?
+-Sono un'inventrice. Ti voglio far vedere le mie ultime invenzioni.
+:032
+-Ma cos'e?
+-E' un radar per ragazze. Mostra le piu belle ragazze single nel vicinato.
+:033
+-Sembra interessante, ma non ho soldi.
+-Lo puoi avere gratis. Solo fammi sapere se funziona bene.
+:034
+-Grazie! Ma perche lo stai dando a me e non a qualcun altro?
+-Perche chi mai potrebbe testarlo meglio di un famoso seduttore come te!
+:035
+-Fantastico! Lo accendo subito!
+-Buona fortuna Casanova! Addio!
+/i
+#GOTO 027
+/i
+:036
+#CLEARBKG
+#LOADBKG G@
+(Mm..il radar non e molto preciso!)
+(Non so quale di queste due ragazze dovrei rimorchiare.)
+:037
+(Entrambe sono carine, non ho niente da perdere.)
+(Ok, basta pensare! Devo scegliere!)
+'Выбор 38
+:038
+!choice39;MI AVVICINO ALLA BRUNETTA
+!choice40;MI AVVICINO ALLA ROSSA
+/i
+:choice39
+(Mi presento e dico alla ragazza che e bellissima.)
+/i
+#GOTO 039
+:choice40
+(Mi presento e dico alla ragazza che e bellissima.)
+/i
+#GOTO 040
+:039
+(Mi dice di abbassare il tono di voce, come se avessi detto qualcosa di sbagliato.)
+(Dopo arriva un uomo e la abbraccia.)
+/i
+#GOTO 042
+:040
+#CLEARBKG
+#LOADBKG G@
+-Che ne dici di un appuntamento? Ti piacerebbe?
+-Vedo che sei molto sicuro. Mi piace questo in un uomo.
+:041
+-Sono solo onesto. Penso che tu sia molto carina.
+-Allora spero tu sia in grado di farmi divertire!
+/i
+#GOTO 048
+/i
+:042
+#CLEARBKG
+#LOADBKG H@
+-Hai un ragazzo? Scusa, non lo sapevo.
+-A dire la verita non e il mio ragazzo.
+:043
+-Allora chi e? Tuo fratello?
+-No, mio marito.
+:044
+-Oh, allora anche peggio. Penso che devo andare.
+-No, rimani per favore!
+:045
+-Per cosa?
+-Sembri un bravo ragazzo. Perche non ti unisci a cena con noi?
+:046
+-No, penso di no.
+-Ok. Non possiamo obbligarti, vero?
+:047
+-Ciao. Magari ci ricontreremo in circostanze migliori.
+-Chi sa cosa puo riservare il futuro...Ciao!
+/i
+#GOTO 029
+/i
+:048
+#CLEARBKG
+#LOADBKG I@
+(Passiamo una serata pazzesca insieme.)
+(Prima, prendiamo una pizza in un piccolo ristorante italiano.)
+:049
+(Poi andiamo a vedere un film al cinema.)
+(E' una commedia erotica, con un sacco di scene sexy.)
+:050
+(Dopodiche, porto la tipa a ballare in un club.)
+(Facciamo festa fino a notte fonda.)
+:051
+(Alla fine, la ragazza mi invita da lei.)
+(E' un piccolo appartamento nella citta vecchia. Un nido accogliente.)
+:052
+(Mi versa un po’ di vino. Parliamo per un po’.)
+(Le cose cominciano a farsi piccanti. Le offro un massaggio sensuale.)
+:053
+(E' d'accordo ma mi chiede di essere il piu gentile possibile.)
+(Spero di riuscire a soddisfarla.)
+/i
+#GOTO 071
+/i
+:054
+#CLEARBKG
+#LOADBKG J@
+-Ciao! Avrei bisogno di un servizio speciale.
+-Certamente. Che tipo di servizio?
+:055
+-Beh, sei molto carina. Potresti far riscaldare il mio motore?
+-Ah ah! Hai senso dell'umorismo.
+:056
+-Allora forse usciresti con me?
+-Non stai sprecando il tuo tempo,non e vero?
+:057
+-Non spreco mai il mio tempo quando si tratta di una ragazza carina come te.
+-In questo caso, allora accetto.
+:058
+-Perfetto! Allora dove ti piacerebbe andare ?
+-Da qualche parte dove posso fare un po’ di esercizio. Devo stare in forma! Qualche idea?
+'Выбор 59
+:059
+!choice66;ANDIAMO IN PALESTRA
+!choice60;ANDIAMO IN PISCINA
+/i
+:choice66
+Ottimo! Fammi solo cambiare i vestiti.
+/i
+#GOTO 066
+:choice60
+Ottimo! Fammi solo cambiare i vestiti.
+/i
+#GOTO 060
+/i
+:060
+#CLEARBKG
+#LOADBKG K@
+PIU' TARDI
+(Pero...e fantastica con quel bikini!)
+:061
+(Ci divertiamo un sacco in piscina.)
+(Mi schizza con l'acqua.)
+:062
+-Hej! Perche l'hai fatto?
+-Ah ah! Dai gioca con me?
+:063
+(E' proprio una bella serata. Sono contento di essere venuto qui.)
+(Passano alcune ore.)
+:064
+-Si sta facendo tardi. Cosa ti va di fare adesso?
+-Sono stanca..Mi daresti un passaggio a casa? Devo andare a letto.
+:065
+-Sicuro...se e quello che vuoi.
+(Sembra che non sia in grado di sedurre la bionda questa sera.)
+/i
+#GOTO 029
+/i
+:066
+#CLEARBKG
+#LOADBKG L@
+PIU' TARDI
+(Pero...e fantastica con questo completo!)
+:067
+(La devo impressionare in qualche modo..Le mostreo quanto sono forte!)
+-Wow! Puoi alzare un sacco di pesi!
+:068
+-Si, ma non sono atletico come te.
+-Allora facciamo una bella coppia!
+:069
+-Lo penso anch'io.
+-Ascolta, mi fa un po’ male la schiena dopo questi esercizi.
+:070
+-Allora andiamo nello spogliatoio. Ti faro un massaggio.
+-Ottimo! Massaggiami forte, voglio sentire la tua forza.
+/i
+#GOTO 074
+/i
+:071
+#PROGCALL MG1_IT
+#IF FL72 #GOTO 72
+#IF FL73 #GOTO 73
+#IF FL73 #GOTO 73
+/i
+:072
+#PROGCALL MG2_IT
+#IF FL73 #GOTO 73
+#IF FL73 #GOTO 73
+#IF FL76 #GOTO 76
+:073
+#CLEARBKG
+#LOADBKG M@
+(Ho fallito! La ragazza non e soddisfatta.)
+(Mi chiede di andarmene.)
+/i
+#GOTO 029
+/i
+:074
+#PROGCALL MG3_IT
+#IF FL73 #GOTO 73
+#IF FL75 #GOTO 75
+#IF FL73 #GOTO 73
+/i
+:075
+#PROGCALL MG4_IT
+#IF FL73 #GOTO 73
+#IF FL73 #GOTO 73
+#IF FL82 #GOTO 82
+/i
+:076
+#CLEARBKG
+#LOADBKG N@
+(Mi bacia.)
+-Sei incredibile, Casanova.
+:077
+-Non devi dirmelo...so chi sono!
+-Ah ah! Ti piace sempre scherzare!
+:078
+-E' per questo che ti piaccio cosi tanto, non e vero?
+-A dire la verita, mi piace la tua compagnia per altri motivi.
+:079
+-Oh davvero?
+-Sei carino, sexy e intelligente. E tutto quello che una ragazza desidera.
+:080
+-Ah ah! Sai cosa dire a un ragazzo!
+(Bene, bene...Questo giornata non poteva finire in un modo migliore!)
+:081
+(Casanova vince ancora! Io spacco!)
+(Tuttavia, qualcosa mi dice che avrei potuto sedurre un'altra ragazza oggi.)
+/i
+#GOTO 090
+/i
+:082
+#CLEARBKG
+#LOADBKG O@
+(Mi bacia.)
+-Sei fantastico, Casanova!
+:083
+-Ah ah! Sai cosa dire a un ragazzo!
+-Ma e vero. Non ho mai incontrato nessuno come te prima d'ora.
+:084
+-Non lo dubito. Sono unico.
+-Vorrei stare con te per sempre.
+:085
+-Pensiamo ad adesso.
+-E' esattemente quello che intendevo.
+:086
+-Divertiamoci!
+(Bene, bene...Questo giornata non poteva finire in un modo migliore!)
+:087
+(Casanova vince ancora! Io spacco!)
+(Tuttavia, qualcosa mi dice che avrei potuto sedurre un'altra ragazza oggi.)
+/i
+#GOTO 090
+:088
+(Mai immischiarsi con una scienziata!)
+FINE DEI GIOCHI
+/i
+#RETURN
+:089
+(Vorrei poter tornare indietro nel tempo in qualche modo.)
+FINE DEI GIOCHI
+/i
+#RETURN
+:090
+(Sono sicuro che c'e un modo per rivivere questa avventura e scoprire chi sarebbe.)
+BUON FINALE
+/i
+#RETURN
+#END

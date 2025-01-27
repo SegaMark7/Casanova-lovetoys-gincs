@@ -1,0 +1,94 @@
+#CLEAR FL73
+#CLEAR FL75
+#CLEAR FL73
+:part1
+#CLEARBKG
+#LOADBKG M@part1
+Elige como lo masajearas
+!part2;Despacio
+!part4;Normalmente
+!part4;Rapido
+/i
+
+:part2
+#CLEARBKG
+#LOADBKG M@part2
+Elige como lo masajearas
+!part4;Despacio
+!part5;Normalmente
+!part3;Rapido
+/i
+
+:part3
+#CLEARBKG
+#LOADBKG M@part3
+Elige como lo masajearas
+!part6;Despacio
+!part6;Normalmente
+!part4;Rapido
+/i
+
+:part4
+#CLEARBKG
+#LOADBKG M@part4
+Elige como lo masajearas
+!part6;Despacio
+!part6;Normalmente
+!part5;Rapido
+/i
+
+:part5
+#CLEARBKG
+#LOADBKG M@part5
+Elige como lo masajearas
+!part7;Despacio
+!part7;Normalmente
+!part7;Rapido
+/i
+
+:part6
+#CLEARBKG
+#LOADBKG M@part6
+Elige como lo masajearas
+!part7;Despacio
+!NORMAL;Normalmente
+!part8;Rapido
+/i
+
+:part7
+#CLEARBKG
+#LOADBKG M@part7
+Elige como lo masajearas
+!SLOW;Despacio
+!NORMAL;Normalmente
+!FAST;Rapido
+/i
+
+:part8
+#CLEARBKG
+#LOADBKG M@part8
+Elige como lo masajearas
+!SLOW;Despacio
+!NORMAL;Normalmente
+!FAST;Rapido
+/i
+
+:SLOW
+#SET FL73
+-?Ha estado bien?
+-?No! ?Lo hiciste demasiado lento!
+/i
+#RETURN
+:NORMAL
+#SET FL75
+-?Ha estado bien?
+-?Por supuesto! Ahora hazlo un poco mas lento.
+/i
+#RETURN
+:FAST
+#SET FL73
+-?Ha estado bien?
+-La verdad es que no. Lo hiciste un poco lento.
+/i
+#RETURN
+#END

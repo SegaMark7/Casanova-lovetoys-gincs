@@ -1,0 +1,4 @@
+*.smd
+Gens.cfg
+temp/*
+language.dat

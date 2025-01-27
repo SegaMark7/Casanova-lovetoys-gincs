@@ -1,0 +1,94 @@
+#CLEAR FL73
+#CLEAR FL73
+#CLEAR FL82
+:part1
+#CLEARBKG
+#LOADBKG M@part1
+Choisissez comment vous la massez
+!part2;Langsam
+!part2;Normalerweise
+!part4;Schnell
+/i
+
+:part2
+#CLEARBKG
+#LOADBKG M@part2
+Choisissez comment vous la massez
+!part3;Langsam
+!part4;Normalerweise
+!part5;Schnell
+/i
+
+:part3
+#CLEARBKG
+#LOADBKG M@part3
+Choisissez comment vous la massez
+!part4;Langsam
+!part5;Normalerweise
+!part6;Schnell
+/i
+
+:part4
+#CLEARBKG
+#LOADBKG M@part4
+Choisissez comment vous la massez
+!part6;Langsam
+!part5;Normalerweise
+!part7;Schnell
+/i
+
+:part5
+#CLEARBKG
+#LOADBKG M@part5
+Choisissez comment vous la massez
+!part6;Langsam
+!part8;Normalerweise
+!part7;Schnell
+/i
+
+:part6
+#CLEARBKG
+#LOADBKG M@part6
+Choisissez comment vous la massez
+!part8;Langsam
+!part8;Normalerweise
+!FAST;Schnell
+/i
+
+:part7
+#CLEARBKG
+#LOADBKG M@part7
+Choisissez comment vous la massez
+!part8;Langsam
+!NORMAL;Normalerweise
+!FAST;Schnell
+/i
+
+:part8
+#CLEARBKG
+#LOADBKG M@part8
+Choisissez comment vous la massez
+!SLOW;Langsam
+!NORMAL;Normalerweise
+!FAST;Schnell
+/i
+
+:SLOW
+#SET FL73
+-Ich bin fertig! War es gut?
+-Nein! Du warst viel zu langsam!
+/i
+#RETURN
+:NORMAL
+#SET FL73
+-Ich bin fertig! War es gut?
+-Nein! Du warst viel zu schnell!
+/i
+#RETURN
+:FAST
+#SET FL82
+-Ich bin fertig! War es gut?
+-Ja! Und ich wei? auch, wie ich dir dafur danken werde!
+/i
+#RETURN
+#END

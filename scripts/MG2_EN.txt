@@ -1,0 +1,94 @@
+#CLEAR FL73
+#CLEAR FL73
+#CLEAR FL76
+:part1
+#CLEARBKG
+#LOADBKG M@part1
+Choose how you will massage her
+!part4;Gradually
+!part3;Normally
+!part2;Quickly
+/i
+
+:part2
+#CLEARBKG
+#LOADBKG M@part2
+Choose how you will massage her
+!part3;Gradually
+!part3;Normally
+!part4;Quickly
+/i
+
+:part3
+#CLEARBKG
+#LOADBKG M@part3
+Choose how you will massage her
+!part6;Gradually
+!part5;Normally
+!part6;Quickly
+/i
+
+:part4
+#CLEARBKG
+#LOADBKG M@part4
+Choose how you will massage her
+!part7;Gradually
+!part5;Normally
+!part5;Quickly
+/i
+
+:part5
+#CLEARBKG
+#LOADBKG M@part5
+Choose how you will massage her
+!part7;Gradually
+!part6;Normally
+!part6;Quickly
+/i
+
+:part6
+#CLEARBKG
+#LOADBKG M@part6
+Choose how you will massage her
+!part7;Gradually
+!part8;Normally
+!part7;Quickly
+/i
+
+:part7
+#CLEARBKG
+#LOADBKG M@part7
+Choose how you will massage her
+!SLOW;Gradually
+!part8;Normally
+!part8;Quickly
+/i
+
+:part8
+#CLEARBKG
+#LOADBKG M@part8
+Choose how you will massage her
+!SLOW;Gradually
+!NORMAL;Normally
+!FAST;Quickly
+/i
+
+:SLOW
+#SET FL73
+-I’m done! Did you like it?
+-No! You were doing it much too slow!
+/i
+#RETURN
+:NORMAL
+#SET FL73
+-I’m done! Did you like it?
+-No! You were doing it much too fast!
+/i
+#RETURN
+:FAST
+#SET FL76
+-I’m done! Did you like it?
+-Yes. In fact, I have a reward for you.
+/i
+#RETURN
+#END

@@ -1,0 +1,33 @@
+#CLEARBKG
+#LOADBKG gincsLogo
+'Выбери язык
+choose lenguage
+Sprache wahlen
+Choisissez la langue
+scegli la lingua
+!German;Deutsch
+!English;English
+!Spanish;Espanol
+!French;Francais
+!Italian;Italiano
+'!Russian;Русский
+/i
+:German
+#SET FL1000
+#RETURN
+:English
+#SET FL1001
+#RETURN
+:Spanish
+#SET FL1002
+#RETURN
+:French
+#SET FL1003
+#RETURN
+:Italian
+#SET FL1004
+#RETURN
+:Russian
+#SET FL1005
+#RETURN
+#END

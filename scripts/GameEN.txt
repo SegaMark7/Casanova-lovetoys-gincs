@@ -1,0 +1,455 @@
+:000
+#CLEARBKG
+#LOADBKG A@
+(Hi! I’m Casanova and I love chasing girls!)
+(On the road, I spot a damsel in distress.)
+:001
+-Hey there, honey. Is something wrong?
+-My car broke down and I need to get to work. Will you give me a lift?
+:002
+(My first choice of the day!)
+(Let me think... What should I do?)
+'Âûáîð 3
+:003
+!choice4;I HELP THE GIRL
+!choice5;I DON’T HELP THE GIRL
+/i
+:choice4
+Thanks! You’re a lifesaver!
+/i
+#GOTO 004
+:choice5
+So you're just leaving me here? Why?
+/i
+#GOTO 005
+:004
+-Don’t mention it. Let’s go!
+(Soon we arrive at her workplace.)
+/i
+#GOTO 006
+:005
+#CLEARBKG
+#LOADBKG A@
+-Sorry, but if I don’t go home now, I’ll miss the new episode of my favorite TV show.
+(I say goodbye to the girl and drive away.)
+/i
+#GOTO 024
+/i
+:006
+#CLEARBKG
+#LOADBKG B@
+-Wow! Look at all those toys! Are you a scientist or something?
+-Indeed I am! Want to try my latest invention?
+:007
+-I don’t know... Is it safe?
+-There is a small risk that your brain will be damaged, but don’t worry about it.
+:008
+-Sounds dangerous.
+-Don’t be a chicken. You have to decide! Will you be my guinea pig?
+'Âûáîð 9
+:009
+!choice10;I REFUSE
+!choice11;I AGREE
+/i
+:choice10
+Your loss, buddy! Leave my lab and never come back!
+/i
+#GOTO 010
+:choice11
+Great! Let’s begin!
+/i
+#GOTO 011
+:010
+-Come on, don’t be mad!
+-I’m not mad... I’m furious! Go away before I lose my patience!
+/i
+#GOTO 024
+:011
+#CLEARBKG
+#LOADBKG B@
+-What do you want me to do?
+-I need you to put on these glasses.
+/i
+:012
+#CLEARBKG
+#LOADBKG C@
+-Okay... Whoa, I can see through your clothes!
+-Ha ha! That means the glasses work!
+:013
+-Congratulations! We should celebrate.
+-What do you have in mind, handsome?
+'Âûáîð 14
+:014
+!choice15;I ACT NAUGHTY
+!choice16;I ACT NICE
+/i
+:choice15
+(I smile at the girl.)
+/i
+#GOTO 015
+:choice16
+(I smile at the girl.)
+/i
+#GOTO 016
+:015
+-Come closer. I have something special for you.
+-Oh... I love surprises!
+/i
+#GOTO 018
+:016
+#CLEARBKG
+#LOADBKG C@
+-Let’s get some coffee.
+-I’d love to, but I still have some work to do.
+:017
+-Then give me a call when you’re free. Here’s my phone number.
+-Okay, see you soon!
+/i
+#GOTO 025
+/i
+:018
+#CLEARBKG
+#LOADBKG D@
+(I kiss her.)
+-Mmm... How pleasant.
+:019
+(Suddenly, a big guy enters the room.)
+-Uh-oh! We’re in trouble!
+:020
+-Why? Who is this?
+-He’s my boyfriend.
+:021
+-You have a boyfriend? Oh boy!
+(I need to do something fast or I’m toast!)
+'Âûáîð 22
+:022
+!choice23_0;I EXPLAIN MYSELF
+!choice23_1;I TRY TO ESCAPE
+/i
+:choice23_0
+(The girl’s boyfriend is too angry. There’s no point in reasoning with him.)
+/i
+#GOTO 023
+:choice23_1
+(The girl’s boyfriend is faster. He pins me to the wall.)
+/i
+#GOTO 023
+:023
+(He says he will transplant my mind into a chimpanzee’s body.)
+(I’m not sure if he’s serious... Well, I learned a valuable lesson today.)
+/i
+#GOTO 088
+/i
+:024
+#CLEARBKG
+#LOADBKG E@
+(I return home and start wondering what would have happened if I helped the girl out.)
+DING-DONG!
+/i
+#GOTO 026
+:025
+#CLEARBKG
+#LOADBKG E@
+(I return home and start wondering if the girl will call me tonight.)
+DING-DONG!
+:026
+-A doorbell? Who could it be?
+(I open the door.)
+/i
+#GOTO 030
+:027
+#CLEARBKG
+#LOADBKG E@
+(Let’s see... The radar shows two girls in the area.)
+(One is in the park and the other in a nearby car workshop.)
+'Âûáîð 28
+:028
+!choice36;I GO TO THE PARK
+!choice54;I GO TO THE WORKSHOP
+/i
+:choice36
+(I’m very excited as I leave my apartment.)
+/i
+#GOTO 036
+:choice54
+(I’m very excited as I leave my apartment.)
+/i
+#GOTO 054
+:029
+(And now I’m back home... All alone.)
+(Maybe if I made different decisions, I would have some company right now.)
+/i
+#GOTO 089
+/i
+:030
+#CLEARBKG
+#LOADBKG F@
+-Hi! May I help you?
+-Nice to finally meet you, Casanova! I’ve heard a lot about you!
+:031
+-That’s cool, I guess... And who are you?
+-I’m an inventor. I want to show you the latest gadget I made.
+:032
+-But what is it?
+-It’s a babe radar. It shows the most beautiful single girls in the neighborhood.
+:033
+-Sounds useful, but I don’t have any money.
+-You can have it for free. Just make sure to let me know if it works well.
+:034
+-Thanks! But why are you giving it to me and not someone else?
+-Who better to test my radar than a famous seducer such as yourself!
+:035
+-Fantastic! I’ll turn it on right away!
+-Good luck, Casanova! Farewell!
+/i
+#GOTO 027
+/i
+:036
+#CLEARBKG
+#LOADBKG G@
+(Hmm... The radar is not specific enough!)
+(I don’t know which of these chicks I should approach.)
+:037
+(Both are pretty, so there’s not much to lose.)
+(Enough thinking! I have to choose!)
+'Âûáîð 38
+:038
+!choice39;I WALK UP TO THE BRUNETTE
+!choice40;I WALK UP TO THE REDHEAD
+/i
+:choice39
+(I introduce myself and tell the girl she looks amazing.)
+/i
+#GOTO 039
+:choice40
+(I introduce myself and tell the girl she looks amazing.)
+/i
+#GOTO 040
+:039
+(She asks me to keep my voice down, as if I said something wrong.)
+(Then some man appears and hugs her.)
+/i
+#GOTO 042
+:040
+#CLEARBKG
+#LOADBKG G@
+-How about we go on a date? Would you like that?
+-I see you’re confident. I can respect that in a man.
+:041
+-I’m just honest. I really think you’re cute.
+-Then I hope you’ll be able to show me a good time!
+/i
+#GOTO 048
+/i
+:042
+#CLEARBKG
+#LOADBKG H@
+-You have a boyfriend? Sorry, I didn’t know.
+-Actually, he’s not my boyfriend.
+:043
+-Then who is he? Your brother?
+-No, my husband.
+:044
+-Oh, that’s even worse. I guess I should go.
+-No, please stay!
+:045
+-What for?
+-You seem like a nice guy. Why don’t you eat dinner with us?
+:046
+-No, I think I’ll pass.
+-Fine. We can’t force you, can we?
+:047
+-Goodbye. Maybe we’ll meet under different circumstances one day.
+-Who knows what the future may bring... Goodbye.
+/i
+#GOTO 029
+/i
+:048
+#CLEARBKG
+#LOADBKG I@
+(We spend a crazy evening together.)
+(First, we grab a pizza in a small Italian restaurant.)
+:049
+(Then we catch a movie at the cinema.)
+(It’s a hot comedy with a lot of sexy scenes.)
+:050
+(Afterwards, I take the redhead to a dance club.)
+(We party til very late into the night.)
+:051
+(Finally, the girl invites me to her place.)
+(It’s a small flat in the old town. A cozy nest.)
+:052
+(She pours me red wine. We talk for a bit.)
+(Then things start to get hot. I offer her a sensual massage.)
+:053
+(She agrees but asks me to be as gentle as possible.)
+(Let’s hope I will be able to satisfy her.)
+/i
+#GOTO 071
+/i
+:054
+#CLEARBKG
+#LOADBKG J@
+-Hello there! I need you to perform a special service for me.
+-Certainly. What kind of service?
+:055
+-Well, you’re pretty hot. Can you heat up my engine?
+-Ha ha! You have a good sense of humor!
+:056
+-Then maybe you’ll go out with me?
+-You’re not wasting any time, are you?
+:057
+-I never waste time when it comes to cute girls like you.
+-In that case, let’s have a date!
+:058
+-Perfect! So where would you like to go?
+-Somewhere where I can exercise. I have to stay fit! Any ideas?
+'Âûáîð 59
+:059
+!choice66;LET’S GO TO THE GYM
+!choice60;LET’S GO FOR A SWIM
+/i
+:choice66
+Awesome! Just let me change my clothes.
+/i
+#GOTO 066
+:choice60
+Awesome! Just let me change my clothes.
+/i
+#GOTO 060
+/i
+:060
+#CLEARBKG
+#LOADBKG K@
+LATER
+(Oh boy... She looks astonishing in this bikini!)
+:061
+(We’re having a lot of fun at the pool.)
+(She splashes me with water.)
+:062
+-Hey! Why did you do that?
+-Ha ha! Come play with me!
+:063
+(It’s a very nice evening. I’m glad I came here.)
+(A few hours pass.)
+:064
+-It’s getting late. What are you in the mood for now?
+-I’m tired... Will you give me a ride home? I have to go to bed.
+:065
+-Sure... If that’s what you want.
+(Looks like I won’t be able to seduce the blonde tonight.)
+/i
+#GOTO 029
+/i
+:066
+#CLEARBKG
+#LOADBKG L@
+LATER
+(Oh boy... She looks astonishing in this outfit!)
+:067
+(I have to impress her somehow... I’ll show her how strong I am!)
+-Wow! You can lift a lot of weight!
+:068
+-Yes, but I’m not as athletic as you.
+-Then we’d make a good pair!
+:069
+-I think so too.
+-Listen, my back hurts a little after exercising.
+:070
+-Then let’s move to the locker room. I’ll give you a massage.
+-Great! Just massage me fast, I want to feel your strength.
+/i
+#GOTO 074
+/i
+:071
+#PROGCALL MG1_EN
+#IF FL72 #GOTO 072
+#IF FL73 #GOTO 073
+#IF FL73 #GOTO 073
+/i
+:072
+#PROGCALL MG2_EN
+#IF FL73 #GOTO 073
+#IF FL73 #GOTO 073
+#IF FL76 #GOTO 076
+:073
+#CLEARBKG
+#LOADBKG M@
+(I failed. The girl is displeased.)
+(She says goodbye and asks me to go.)
+/i
+#GOTO 029
+/i
+:074
+#PROGCALL MG3_EN
+#IF FL73 #GOTO 073
+#IF FL75 #GOTO 075
+#IF FL73 #GOTO 073
+/i
+:075
+#PROGCALL MG4_EN
+#IF FL73 #GOTO 073
+#IF FL73 #GOTO 073
+#IF FL82 #GOTO 082
+/i
+:076
+#CLEARBKG
+#LOADBKG N@
+(She kisses me.)
+-You’re incredible, Casanova!
+:077
+-You don’t have to tell me... I know I am!
+-Ha ha! You’re such a jokester!
+:078
+-That’s why you like me so much, right?
+-Actually, I enjoy your company for other reasons.
+:079
+-Oh really?
+-You’re handsome, hot and smart. That’s all a girl needs!
+:080
+-Ha ha! You know what to tell a guy!
+(Well, well... This day couldn’t have ended any better!)
+:081
+(Casanova wins again! I rock!)
+(However, something tells me there’s at least one other girl I could have seduced today.)
+/i
+#GOTO 090
+/i
+:082
+#CLEARBKG
+#LOADBKG O@
+(She kisses me.)
+-You’re wonderful, Casanova!
+:083
+-Ha ha! You know what to tell a guy!
+-But it’s true. I’ve never met anyone like you before.
+:084
+-I don’t doubt it. I’m one of a kind.
+-I wish I could stay with you forever.
+:085
+-Let’s focus on here and now.
+-That’s exactly what I intend to do.
+:086
+-Then let’s go wild!
+(Well, well... This day couldn’t have ended any better!)
+:087
+(Casanova wins again! I rock!)
+(However, something tells me there’s at least one other girl I could have seduced today.)
+/i
+#GOTO 090
+:088
+(Never mess with a scientist!)
+BAD ENDING
+/i
+#RETURN
+:089
+(I wish I could rewind time somehow.)
+BAD ENDING
+/i
+#RETURN
+:090
+(I’m sure there’s a way to relive this adventure and find out who it is!)
+GOOD ENDING
+/i
+#RETURN
+#END

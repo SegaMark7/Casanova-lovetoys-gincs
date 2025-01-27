@@ -1,0 +1,455 @@
+:000
+#CLEARBKG
+#LOADBKG A@
+(Hi! Ich bin Casanova und verruckt nach Frauen!)
+(Auf der Stra?e sehe ich eine hei?e Schnecke mit einer Panne.)
+:001
+-Hey Su?e. Kann ich dir helfen?
+-Mein Auto ist kaputt und ich muss dringend zur Arbeit. Kannst du mich vielleicht hinfahren?
+:002
+(Die erste Entscheidung des Tages.)
+(Hmm, wie soll ich mich entscheiden?)
+'Выбор 3
+:003
+!choice4;Ich helfe ihr.
+!choice5;Ich helfe ihr nicht.
+/i
+:choice4
+Danke! Du bist mein Retter!
+/i
+#GOTO 004
+:choice5
+Du willst mich einfach stehen lassen? Warum?
+/i
+#GOTO 005
+:004
+-Kein Problem! Los gehts!
+(Einen Augenblick spater sind wir bei ihr auf der Arbeit.)
+/i
+#GOTO 006
+:005
+#CLEARBKG
+#LOADBKG A@
+-Sorry, aber ich muss ganz schnell nach Hause, sonst verpasse ich meine Lieblings TV Serie.
+(Ich verabschiede mich von ihr und fahre weiter.)
+/i
+#GOTO 024
+/i
+:006
+#CLEARBKG
+#LOADBKG B@
+-Boah! All diese Apparaturen! Bist du ein Forscher oder so?
+-In der Tat! Willst du meine neueste Erfindung ausprobieren?
+:007
+-Ich wei? nicht.. Ist das sicher?
+-Ein kleines Risiko besteht, dass dein Gehirn beschadigt wird, aber mach dir daruber keine Gedanken.
+:008
+-Hort sich gefahrlich an.
+-Sei kein Feigling. Entscheide dich, willst du mein Versuchskaninchen sein?
+'Выбор 9
+:009
+!choice10;Ich entscheide mich dagegen.
+!choice11;Ich stimme zu.
+/i
+:choice10
+Da verpasst du was, Kumpel. Du kannst gehen, und lass dich auch nicht mehr blicken.
+/i
+#GOTO 010
+:choice11
+Super! Dann lass uns anfangen.
+/i
+#GOTO 011
+:010
+-Komm schon, sein nicht sauer!
+-Ich bin nicht sauer.. Ich bin nur total enttauscht! Geh, bevor ich richtig wutend auf dich werde!
+/i
+#GOTO 024
+:011
+#CLEARBKG
+#LOADBKG B@
+-Was soll ich machen?
+-Zieh diese Brille auf.
+/i
+:012
+#CLEARBKG
+#LOADBKG C@
+-Ok... Wow!! Ich sehe dich nackt!
+-Hahaha! Ja, die Brille scheint zu funktionieren!
+:013
+-Das ist die Erfindung des Jahrhunderts! Wir sollten das feiern!
+-Was hast du vor, Su?er?
+'Выбор 14
+:014
+!choice15;Ich benehme mich wie ein Macho.
+!choice16;Ich benehme mich ganz lieb.
+/i
+:choice15
+(Ich lachel sie an.)
+/i
+#GOTO 015
+:choice16
+(Ich lachel sie an.)
+/i
+#GOTO 016
+:015
+-Komm naher. Ich hab etwas ganz Besonderes fur dich.
+-Oh.. Ich liebe Uberraschungen!
+/i
+#GOTO 018
+:016
+#CLEARBKG
+#LOADBKG C@
+-Lass uns erstmal einen Kaffe trinken gehen.
+-Das wurde ich wirklich gerne, aber ich hab noch Arbeit zu erledigen.
+:017
+-Dann ruf mich an, wenn du fertig bist. Hier ist meine Nummer.
+-Ok, bis dann!
+/i
+#GOTO 025
+/i
+:018
+#CLEARBKG
+#LOADBKG D@
+(Ich kusse sie.)
+-Hmm, das war aber nett.
+:019
+(Auf einmal kommt ein machtiger Typ in den Raum.)
+-Oh oh! Jetzt haben wir ein Problem!
+:020
+-Warum? Wer ist das?
+-Das ist mein Freund.
+:021
+-Du hast einen Freund?! Oh, Schei?e!
+(Ich muss mir schnell was einfallen lassen..)
+'Выбор 22
+:022
+!choice23_0;Ich versuche die Situation zu erklaren.
+!choice23_1;Ich versuche abzuhauen.
+/i
+:choice23_0
+(Ihr Freund ist auf 180 und dreht total durch.)
+/i
+#GOTO 023
+:choice23_1
+(Ihr Freund ist schneller und schmei?t mich gegen die Wand.)
+/i
+#GOTO 023
+:023
+(Er droht mir, dass er mein Gehirn einem Schimpansen transplantieren wird.)
+(Ich wei? nicht, ob er das ernst gemeint hat.. Aber heute hab ich auf jeden Fall eine wichtige Lektion gelernt.)
+/i
+#GOTO 088
+/i
+:024
+#CLEARBKG
+#LOADBKG E@
+(Ich fahre nach Hause und frage mich spater, was wohl passiert ware, wenn ich ihr geholfen hatte.)
+Ding Dong!
+/i
+#GOTO 026
+:025
+#CLEARBKG
+#LOADBKG E@
+(Ich fahre nach Hause und frage mich, ob sie mich spater noch anrufen wird.)
+Ding Dong!
+:026
+-Es klingelt? Wer konnte das sein?
+(Ich offne die Tur.)
+/i
+#GOTO 030
+:027
+#CLEARBKG
+#LOADBKG E@
+(Ok, mal sehen.. Der Radar zeigt mir zwei Frauen in der Nahe an.)
+(Eine ist im Park und die andere in der Auto Werkstatt.)
+'Выбор 28
+:028
+!choice36;Ich gehe in den Park.
+!choice54;Ich gehe in die Werkstatt.
+/i
+:choice36
+(Ich bin schon ganz aufgeregt.)
+/i
+#GOTO 036
+:choice54
+(Ich bin schon ganz aufgeregt.)
+/i
+#GOTO 054
+:029
+(Und jetzt bin ich wieder zu Hause... Ganz allein.)
+(Vielleicht ware ich jetzt nicht alleine, wenn ich einige Entscheidungen anders getroffen hatte.)
+/i
+#GOTO 089
+/i
+:030
+#CLEARBKG
+#LOADBKG F@
+-Hi! Kann ich dir helfen?
+-Schon, dich endlich zu treffen, Casanova! Ich hab schon viel von dir gehort.
+:031
+-Oh, das ist cool - glaub ich.. Und wer bist du?
+-Ich bin ein Erfinder und mochte dir gerne meine neueste Erfindung zeigen.
+:032
+-Und die ware?
+-Ein Babe-Radar. Er zeigt dir die hei?esten Single Frauen in der Gegend an.
+:033
+-Hort sich richtig gut an, aber ich hab gar kein Geld, um dir das abzukaufen.
+-Du kannst das Gerat umsonst haben. Du musst mir nur am Ende berichten, ob das Gerat gut funktioniert.
+:034
+-Danke! Aber warum gibst du gerade mir das Gerat?
+-Weil du ein beruhmter Verfuhrer und somit die perfekte Testperson bist.
+:035
+-Fantastisch! Ich werd das Gerat gleich anschalten!
+-Viel Erfolg, Casanova! Bis dann!
+/i
+#GOTO 027
+/i
+:036
+#CLEARBKG
+#LOADBKG G@
+(Hmm. Der Radar ist nicht ganz genau.)
+(Welche von den Madels hier ist wohl die Richtige..?)
+:037
+(Was solls.. Beide sind richtig hei?. Ich versuch mein Gluck!)
+(Fur wen entscheide ich mich?)
+'Выбор 38
+:038
+!choice39;Ich gehe zur Brunetten.
+!choice40;Ich gehe zur Rothaarigen.
+/i
+:choice39
+(Ich stelle mich vor und sage ihr, dass sie umwerfend aussieht.)
+/i
+#GOTO 039
+:choice40
+(Ich stelle mich vor und sage ihr, dass sie umwerfend aussieht.)
+/i
+#GOTO 040
+:039
+(Sie bittet mich, ganz leise zu sprechen. Als hatten wir etwas zu verbergen.)
+(Auf einmal taucht ein Kerl auf und umarmt sie.)
+/i
+#GOTO 042
+:040
+#CLEARBKG
+#LOADBKG G@
+-Hey, hast du Lust auf ein Date mit mir?
+-Du bist ziemlich direkt. Aber genau darauf stehe ich.
+:041
+-Ich bin nur ehrlich und finde dich wirklich su?.
+-Dann hoffe ich mal, dass der Abend mit dir lustig wird!
+/i
+#GOTO 048
+/i
+:042
+#CLEARBKG
+#LOADBKG H@
+-Du hast einen Freund? Sorry, das wusste ich nicht.
+-Nein, er ist nicht mein Freund.
+:043
+-Wer ist dann? Dein Bruder?
+-Nein, mein Mann.
+:044
+-Oh, das ist ganz schlecht. Ich gehe dann besser.
+-Nein, bitte bleib!
+:045
+-Warum?
+-Du scheinst ganz nett zu sein. Willst du nicht mit uns Essen gehen?
+:046
+-Ah, da passe ich lieber.
+-Hm, das ist echt schade.
+:047
+-Bis dann. Vielleicht sehen wir uns unter anderen Umstanden wieder.
+-Wer wei?, was die Zukunft bringt.. Ciao!
+/i
+#GOTO 029
+/i
+:048
+#CLEARBKG
+#LOADBKG I@
+(Wir verbringen einen verruckten Abend zusammen.)
+(Zuerst gehen wir in einem kleinen italienischen Restaurant Pizza essen.)
+:049
+(Und schauen uns dann einen Kinofilm an.)
+(Eine scharfe Komodie mit sexy Szenen.)
+:050
+(Und danach nehme ich sie mit in einen Club.)
+(Wo wir die Nacht durchfeiern.)
+:051
+(Anschlie?end ladt sie mich zu ihr nach Hause ein.)
+(Sie wohnt in einer gemutlichen Wohnung in der Altstadt.)
+:052
+(Bei einem Glas Rotwein reden wir erstmal eine Weile..)
+(Und dann wird die Atmosphare richtig hei?.. Ich biete ihr meine beruhmte Massage an.)
+:053
+(Sie freut sich darauf, bittet mich aber, ganz zartlich zu sein.)
+(Hoffentlich stelle ich sie zufrieden.)
+/i
+#GOTO 071
+/i
+:054
+#CLEARBKG
+#LOADBKG J@
+-Hallo! Ich benotige einen ganz speziellen Service.
+-Naturlich. Wie kann ich helfen?
+:055
+-Hm, du bist richtig hei?.. Vielleicht kannst du meinen Motor anschmei?en? Hehehe.
+-Hahaha! Du bist echt ein Spa?vogel.
+:056
+-Ja! Hast du nicht Lust auf ein Date mit mir?
+-Du verschwendest keine Zeit oder?
+:057
+-Wenn so eine tolle Frau vor mir steht, dann verliere ich keine Zeit!
+-Ok, du hast mich uberredet!
+:058
+-Perfekt! Und, worauf hast du Lust?
+-Auf Sport. Ich muss fit bleiben! Hast du eine Idee?
+'Выбор 59
+:059
+!choice66;Lass uns ins Fitnessstudio gehen.
+!choice60;Lass uns Schwimmen gehen.
+/i
+:choice66
+Gute Idee! Ich zieh mich nur kurz um.
+/i
+#GOTO 066
+:choice60
+Gute Idee! Ich zieh mich nur kurz um.
+/i
+#GOTO 060
+/i
+:060
+#CLEARBKG
+#LOADBKG K@
+Etwas spater.
+(Oh, Mann! Sie sieht ultrascharf in ihrem Bikini aus!)
+:061
+(Wir vergnugen uns im Pool.)
+(Sie spritzt mir Wasser ins Gesicht.)
+:062
+-Hey! Was soll das denn?
+-Hahaha! Komm, spiel mit mir!
+:063
+(Der Abend ist echt nett. Das war eine gute Idee.)
+(Einige Stunden spater.)
+:064
+-Es wird spat. Worauf hast du jetzt Lust?
+-Ich bin mude.. Willst du mich nicht nach Hause fahren? Ich muss ins Bett.
+:065
+-Klaro.. Du scheinst echt mude zu sein.
+(Das wird heute wohl nichts mehr mit der Blondinen..)
+/i
+#GOTO 029
+/i
+:066
+#CLEARBKG
+#LOADBKG L@
+Etwas spater.
+(Oh, Mann! Sie sieht in ihren Klamotten ultrascharf aus!)
+:067
+(Ich muss sie irgendwie beeindrucken.. Ich zeige ihr, wie stark ich bin!)
+-Krass! Du bist ja richtig stark!
+:068
+-Ja, aber nicht so athletisch wie du.
+-Aber wir geben trotzdem ein gutes Paar ab!
+:069
+-Ja, das finde ich auch.
+-Mein Rucken zieht. Ich hab wohl zu hart trainiert.
+:070
+-Dann lass uns in die Umkleide gehen. Ich werd dich massieren.
+-Super! Massier mich ganz fest. Ich will deine starken Hande spuren.
+/i
+#GOTO 074
+/i
+:071
+#PROGCALL MG1_DE
+#IF FL72 #GOTO 72
+#IF FL73 #GOTO 73
+#IF FL73 #GOTO 73
+/i
+:072
+#PROGCALL MG2_DE
+#IF FL73 #GOTO 73
+#IF FL73 #GOTO 73
+#IF FL76 #GOTO 76
+:073
+#CLEARBKG
+#LOADBKG M@
+(Das war nix. Sie ist enttauscht.)
+(Sie sagt mir Tschuss und will, dass ich gehe.)
+/i
+#GOTO 029
+/i
+:074
+#PROGCALL MG3_DE
+#IF FL73 #GOTO 73
+#IF FL75 #GOTO 75
+#IF FL73 #GOTO 73
+/i
+:075
+#PROGCALL MG4_DE
+#IF FL73 #GOTO 73
+#IF FL73 #GOTO 73
+#IF FL82 #GOTO 82
+/i
+:076
+#CLEARBKG
+#LOADBKG N@
+(Sie kusst mich.)
+-Du bist unglaublich, Casanova!
+:077
+-Das musst du mir doch nicht sagen.. Das wei? ich schon langst!
+-Haha! Du bist echt ein witziger Kerl!
+:078
+-Und deswegen magst du mich, richtig?
+-Hmm, um ehrlich zu sein, nicht nur deswegen.
+:079
+-Oh, wirklich?
+-Du siehst gut aus, bist scharf und intelligent. Darauf stehen Frauen!
+:080
+-Hey, du wei?t, was Manner horen wollen!
+(Der heutige Tag ist einfach perfekt gelaufen!)
+:081
+(Casanova hat wie immer sein Ziel erreicht! Yeah!)
+(Aber irgendein Gefuhl sagt mir, dass ich heute noch eine andere Frau hatte klarmachen konnen.)
+/i
+#GOTO 090
+/i
+:082
+#CLEARBKG
+#LOADBKG O@
+(Sie kusst mich.)
+-Du bist wunderbar, Casanova!
+:083
+-Hey, du wei?t, was Manner horen wollen!
+-Es ist die Wahrheit. Ich hab noch nie so einen Typen wie dich getroffen.
+:084
+-Das bezweifel ich nicht. Ich bin einmalig!
+-Ich wunschte, wir konnten fur immer so zusammen sein.
+:085
+-Lass uns erstmal den jetzigen Moment auskosten!
+-Genau das hatte ich mit dir vor!
+:086
+-Dann mal los, Su?e!
+(Der heutige Tag ist einfach perfekt gelaufen!)
+:087
+(Casanova hat wie immer sein Ziel erreicht! Yeah!)
+(Aber irgendein Gefuhl sagt mir, dass ich heute noch eine andere Frau hatte klarmachen konnen.)
+/i
+#GOTO 090
+:088
+(Leg dich nie mit einem Wissenschafter an!)
+VERLOREN
+/i
+#RETURN
+:089
+(Ich wunschte, ich konnte die Zeit zuruckdrehen.)
+VERLOREN
+/i
+#RETURN
+:090
+(Ich bin sicher, dass ich dieses Abenteuer wiederholen und herausfinden kann, wer die andere Frau ist!)
+HAPPY END
+/i
+#RETURN
+#END

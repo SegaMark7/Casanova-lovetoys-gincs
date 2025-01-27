@@ -1,0 +1,94 @@
+#CLEAR FL72
+#CLEAR FL73
+#CLEAR FL73
+:part1
+#CLEARBKG
+#LOADBKG M@part1
+Выбирай как будешь её массировать
+!part3;Медленно
+!part4;Нормально
+!part4;Быстро
+/i
+
+:part2
+#CLEARBKG
+#LOADBKG M@part2
+Выбирай как будешь её массировать
+!part4;Медленно
+!part3;Нормально
+!part4;Быстро
+/i
+
+:part3
+#CLEARBKG
+#LOADBKG M@part3
+Выбирай как будешь её массировать
+!part6;Медленно
+!part6;Нормально
+!part4;Быстро
+/i
+
+:part4
+#CLEARBKG
+#LOADBKG M@part4
+Выбирай как будешь её массировать
+!part6;Медленно
+!part7;Нормально
+!part5;Быстро
+/i
+
+:part5
+#CLEARBKG
+#LOADBKG M@part5
+Выбирай как будешь её массировать
+!part6;Медленно
+!part6;Нормально
+!part8;Быстро
+/i
+
+:part6
+#CLEARBKG
+#LOADBKG M@part6
+Выбирай как будешь её массировать
+!part7;Медленно
+!part8;Нормально
+!part7;Быстро
+/i
+
+:part7
+#CLEARBKG
+#LOADBKG M@part7
+Выбирай как будешь её массировать
+!SLOW;Медленно
+!NORMAL;Нормально
+!FAST;Быстро
+/i
+
+:part8
+#CLEARBKG
+#LOADBKG M@part8
+Выбирай как будешь её массировать
+!SLOW;Медленно
+!NORMAL;Нормально
+!FAST;Быстро
+/i
+
+:SLOW
+#SET FL72
+-Тебе было хорошо?
+-Конечно! А теперь немного побыстрее!
+/i
+#RETURN
+:NORMAL
+#SET FL73
+-Тебе было хорошо?
+-Нет! Ты массировал слишком быстро.
+/i
+#RETURN
+:FAST
+#SET FL73
+-Тебе было хорошо?
+-Не очень. Мог бы массировать чуть помедленнее.
+/i
+#RETURN
+#END
